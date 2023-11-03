@@ -26,9 +26,7 @@ AWID Dataset can be downloaded from
 The file `task_dataset.pkl` is generated first that consists of all the tasks to be trained in progressive learning. Run the jupyter notebook file `<dataset name>_tasks.ipynb` inside `data` folder of each `Raytune-Continual-Learning-<dataset name>` folder. 
 
 The training mechanism for different search algorithms and schedular are given in `Raytune_<dataset name>.ipynb` notebook file.
-
-    The `Reinforcement-Continual Learning` is taken from `https://github.com/xujinfan/Reinforced-Continual-Learning` but we applied the UNSW and AWID dataset.
-
-    The folder `DEN` contains the Dynamically Expandable Network mechanims to build progressive learning taken from `https://github.com/jaehong31/DEN`. Again we apply UNSW and AWID cyber security datasets insted of MNIST. 
+- The `Reinforcement-Continual Learning` is taken from `https://github.com/xujinfan/Reinforced-Continual-Learning` but we applied the UNSW and AWID dataset.
+- The folder `DEN` contains the Dynamically Expandable Network mechanims to build progressive learning taken from `https://github.com/jaehong31/DEN`. Again we apply UNSW and AWID cyber security datasets insted of MNIST. 
 
 
