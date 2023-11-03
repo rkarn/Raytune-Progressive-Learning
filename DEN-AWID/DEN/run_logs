@@ -1,0 +1,805 @@
+rupeshs-mbp:DEN rupesh.karn$ python DEN_run.py 
+/Users/rupesh.karn/anaconda2/lib/python2.7/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+WARNING:tensorflow:From DEN_run.py:27: read_data_sets (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
+WARNING:tensorflow:From /Users/rupesh.karn/anaconda2/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:260: maybe_download (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please write your own downloading logic.
+WARNING:tensorflow:From /Users/rupesh.karn/anaconda2/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:262: extract_images (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.data to implement this functionality.
+Extracting MNIST_data/train-images-idx3-ubyte.gz
+WARNING:tensorflow:From /Users/rupesh.karn/anaconda2/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:267: extract_labels (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.data to implement this functionality.
+Extracting MNIST_data/train-labels-idx1-ubyte.gz
+WARNING:tensorflow:From /Users/rupesh.karn/anaconda2/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:110: dense_to_one_hot (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.one_hot on tensors.
+Extracting MNIST_data/t10k-images-idx3-ubyte.gz
+Extracting MNIST_data/t10k-labels-idx1-ubyte.gz
+WARNING:tensorflow:From /Users/rupesh.karn/anaconda2/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:290: __init__ (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
+2018-06-23 13:03:28.663280: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+
+
+	TASK 1 TRAINING
+
+ [*] iter: 100, val loss: 0.0407, val perf: 0.9954
+ [*] iter: 200, val loss: 0.0290, val perf: 0.9975
+ [*] iter: 300, val loss: 0.0255, val perf: 0.9983
+ [*] iter: 400, val loss: 0.0224, val perf: 0.9986
+ [*] iter: 500, val loss: 0.0204, val perf: 0.9988
+ [*] iter: 600, val loss: 0.0179, val perf: 0.9990
+ [*] iter: 700, val loss: 0.0169, val perf: 0.9991
+ [*] iter: 800, val loss: 0.0166, val perf: 0.9992
+ [*] iter: 900, val loss: 0.0165, val perf: 0.9992
+ [*] iter: 1000, val loss: 0.0160, val perf: 0.9993
+ [*] iter: 1100, val loss: 0.0155, val perf: 0.9993
+ [*] iter: 1200, val loss: 0.0151, val perf: 0.9993
+ [*] iter: 1300, val loss: 0.0148, val perf: 0.9994
+ [*] iter: 1400, val loss: 0.0149, val perf: 0.9993
+ [*] iter: 1500, val loss: 0.0146, val perf: 0.9994
+ [*] iter: 1600, val loss: 0.0143, val perf: 0.9993
+ [*] iter: 1700, val loss: 0.0139, val perf: 0.9994
+ [*] iter: 1800, val loss: 0.0145, val perf: 0.9994
+ [*] iter: 1900, val loss: 0.0137, val perf: 0.9994
+ [*] iter: 2000, val loss: 0.0142, val perf: 0.9994
+ [*] iter: 2100, val loss: 0.0137, val perf: 0.9995
+ [*] iter: 2200, val loss: 0.0136, val perf: 0.9994
+ [*] iter: 2300, val loss: 0.0139, val perf: 0.9994
+ [*] iter: 2400, val loss: 0.0135, val perf: 0.9995
+ [*] iter: 2500, val loss: 0.0129, val perf: 0.9994
+ [*] iter: 2600, val loss: 0.0126, val perf: 0.9995
+ [*] iter: 2700, val loss: 0.0127, val perf: 0.9995
+ [*] iter: 2800, val loss: 0.0131, val perf: 0.9995
+ [*] iter: 2900, val loss: 0.0132, val perf: 0.9994
+ [*] iter: 3000, val loss: 0.0131, val perf: 0.9994
+ [*] iter: 3100, val loss: 0.0130, val perf: 0.9994
+ [*] iter: 3200, val loss: 0.0128, val perf: 0.9995
+ [*] iter: 3300, val loss: 0.0127, val perf: 0.9995
+ [*] iter: 3400, val loss: 0.0133, val perf: 0.9995
+ [*] iter: 3500, val loss: 0.0128, val perf: 0.9995
+ [*] iter: 3600, val loss: 0.0125, val perf: 0.9995
+ [*] iter: 3700, val loss: 0.0124, val perf: 0.9995
+ [*] iter: 3800, val loss: 0.0127, val perf: 0.9995
+ [*] iter: 3900, val loss: 0.0124, val perf: 0.9995
+ [*] iter: 4000, val loss: 0.0129, val perf: 0.9995
+ [*] iter: 4100, val loss: 0.0128, val perf: 0.9995
+ [*] iter: 4200, val loss: 0.0130, val perf: 0.9995
+ [*] iter: 4300, val loss: 0.0123, val perf: 0.9995
+   [*] Total expansions: [0, 0]
+ [*] task 1, shape : [784, 784]
+ [*] task 2, shape : [784, 784]
+ [*] Task: 1, nn_test_loss: 0.0125, test_perf: 0.9996, sparsity(avg): 0.5996
+
+ OVERALL EVALUATION
+ [*] task 1, shape : [784, 784]
+ [*] task 2, shape : [784, 784]
+ [*] Evaluation, Task:1, test_acc: 0.9996
+   [*] avg_perf: 0.9996
+
+
+	TASK 2 TRAINING
+
+ [*] Selective retraining
+ [*] Network expansion (training)
+   [*] Expanding 2th hidden unit, 8 unit added, (valid, repeated: 4300)
+   [*] Expanding 1th hidden unit, 9 unit added, (valid, repeated: 4300)
+ [*] Split & Duplication
+   [*] split N in layer1: 0 / 0
+   [*] split N in layer2: 0 / 0
+ [*] iter: 100, val loss: 0.0621, val perf: 0.9895
+ [*] iter: 200, val loss: 0.0539, val perf: 0.9917
+ [*] iter: 300, val loss: 0.0501, val perf: 0.9929
+ [*] iter: 400, val loss: 0.0475, val perf: 0.9936
+ [*] iter: 500, val loss: 0.0450, val perf: 0.9943
+ [*] iter: 600, val loss: 0.0432, val perf: 0.9947
+ [*] iter: 700, val loss: 0.0419, val perf: 0.9950
+ [*] iter: 800, val loss: 0.0412, val perf: 0.9952
+ [*] iter: 900, val loss: 0.0396, val perf: 0.9955
+ [*] iter: 1000, val loss: 0.0390, val perf: 0.9957
+ [*] iter: 1100, val loss: 0.0389, val perf: 0.9958
+ [*] iter: 1200, val loss: 0.0373, val perf: 0.9961
+ [*] iter: 1300, val loss: 0.0366, val perf: 0.9962
+ [*] iter: 1400, val loss: 0.0369, val perf: 0.9962
+ [*] iter: 1500, val loss: 0.0360, val perf: 0.9964
+ [*] iter: 1600, val loss: 0.0349, val perf: 0.9965
+ [*] iter: 1700, val loss: 0.0348, val perf: 0.9965
+ [*] iter: 1800, val loss: 0.0344, val perf: 0.9965
+ [*] iter: 1900, val loss: 0.0338, val perf: 0.9966
+ [*] iter: 2000, val loss: 0.0335, val perf: 0.9968
+ [*] iter: 2100, val loss: 0.0335, val perf: 0.9968
+ [*] iter: 2200, val loss: 0.0333, val perf: 0.9968
+ [*] iter: 2300, val loss: 0.0331, val perf: 0.9968
+ [*] iter: 2400, val loss: 0.0326, val perf: 0.9969
+ [*] iter: 2500, val loss: 0.0324, val perf: 0.9969
+ [*] iter: 2600, val loss: 0.0321, val perf: 0.9970
+ [*] iter: 2700, val loss: 0.0321, val perf: 0.9969
+ [*] iter: 2800, val loss: 0.0317, val perf: 0.9969
+ [*] iter: 2900, val loss: 0.0322, val perf: 0.9969
+ [*] iter: 3000, val loss: 0.0316, val perf: 0.9969
+ [*] iter: 3100, val loss: 0.0316, val perf: 0.9970
+ [*] iter: 3200, val loss: 0.0314, val perf: 0.9970
+ [*] iter: 3300, val loss: 0.0314, val perf: 0.9970
+ [*] iter: 3400, val loss: 0.0311, val perf: 0.9971
+ [*] iter: 3500, val loss: 0.0316, val perf: 0.9969
+ [*] iter: 3600, val loss: 0.0314, val perf: 0.9970
+ [*] iter: 3700, val loss: 0.0310, val perf: 0.9970
+ [*] iter: 3800, val loss: 0.0309, val perf: 0.9971
+ [*] iter: 3900, val loss: 0.0308, val perf: 0.9972
+ [*] iter: 4000, val loss: 0.0310, val perf: 0.9971
+ [*] iter: 4100, val loss: 0.0308, val perf: 0.9972
+ [*] iter: 4200, val loss: 0.0306, val perf: 0.9971
+ [*] iter: 4300, val loss: 0.0305, val perf: 0.9971
+   [*] split, loss: 0.0353, nn_perf: 0.9971(valid) repeated: 4300
+   [*] Total expansions: [9, 8]
+ [*] task 1, shape : [784, 793]
+ [*] task 2, shape : [793, 792]
+ [*] Task: 2, nn_test_loss: 0.0315, test_perf: 0.9972, sparsity(avg): 0.5651
+
+ OVERALL EVALUATION
+ [*] task 1, shape : [784, 784]
+ [*] task 2, shape : [784, 784]
+ [*] Evaluation, Task:1, test_acc: 0.9996
+ [*] task 1, shape : [784, 793]
+ [*] task 2, shape : [793, 792]
+ [*] Evaluation, Task:2, test_acc: 0.9972
+   [*] avg_perf: 0.9984
+
+
+	TASK 3 TRAINING
+
+ [*] Selective retraining
+ [*] Network expansion (training)
+   [*] Expanding 2th hidden unit, 3 unit added, (valid, repeated: 4300)
+   [*] Expanding 1th hidden unit, 10 unit added, (valid, repeated: 4300)
+ [*] Split & Duplication
+   [*] split N in layer1: 0 / 0
+   [*] split N in layer2: 0 / 0
+ [*] iter: 100, val loss: 0.0529, val perf: 0.9923
+ [*] iter: 200, val loss: 0.0467, val perf: 0.9939
+ [*] iter: 300, val loss: 0.0437, val perf: 0.9946
+ [*] iter: 400, val loss: 0.0418, val perf: 0.9953
+ [*] iter: 500, val loss: 0.0403, val perf: 0.9957
+ [*] iter: 600, val loss: 0.0376, val perf: 0.9959
+ [*] iter: 700, val loss: 0.0370, val perf: 0.9962
+ [*] iter: 800, val loss: 0.0358, val perf: 0.9963
+ [*] iter: 900, val loss: 0.0345, val perf: 0.9965
+ [*] iter: 1000, val loss: 0.0339, val perf: 0.9966
+ [*] iter: 1100, val loss: 0.0340, val perf: 0.9967
+ [*] iter: 1200, val loss: 0.0330, val perf: 0.9969
+ [*] iter: 1300, val loss: 0.0324, val perf: 0.9969
+ [*] iter: 1400, val loss: 0.0317, val perf: 0.9970
+ [*] iter: 1500, val loss: 0.0316, val perf: 0.9971
+ [*] iter: 1600, val loss: 0.0313, val perf: 0.9971
+ [*] iter: 1700, val loss: 0.0310, val perf: 0.9972
+ [*] iter: 1800, val loss: 0.0307, val perf: 0.9972
+ [*] iter: 1900, val loss: 0.0304, val perf: 0.9972
+ [*] iter: 2000, val loss: 0.0302, val perf: 0.9973
+ [*] iter: 2100, val loss: 0.0305, val perf: 0.9972
+ [*] iter: 2200, val loss: 0.0299, val perf: 0.9973
+ [*] iter: 2300, val loss: 0.0297, val perf: 0.9973
+ [*] iter: 2400, val loss: 0.0297, val perf: 0.9973
+ [*] iter: 2500, val loss: 0.0296, val perf: 0.9974
+ [*] iter: 2600, val loss: 0.0296, val perf: 0.9974
+ [*] iter: 2700, val loss: 0.0292, val perf: 0.9974
+ [*] iter: 2800, val loss: 0.0293, val perf: 0.9975
+ [*] iter: 2900, val loss: 0.0288, val perf: 0.9974
+ [*] iter: 3000, val loss: 0.0288, val perf: 0.9974
+ [*] iter: 3100, val loss: 0.0286, val perf: 0.9975
+ [*] iter: 3200, val loss: 0.0285, val perf: 0.9975
+ [*] iter: 3300, val loss: 0.0283, val perf: 0.9975
+ [*] iter: 3400, val loss: 0.0286, val perf: 0.9975
+ [*] iter: 3500, val loss: 0.0283, val perf: 0.9975
+ [*] iter: 3600, val loss: 0.0283, val perf: 0.9975
+ [*] iter: 3700, val loss: 0.0283, val perf: 0.9976
+ [*] iter: 3800, val loss: 0.0280, val perf: 0.9976
+ [*] iter: 3900, val loss: 0.0281, val perf: 0.9976
+ [*] iter: 4000, val loss: 0.0279, val perf: 0.9976
+ [*] iter: 4100, val loss: 0.0283, val perf: 0.9976
+ [*] iter: 4200, val loss: 0.0279, val perf: 0.9976
+ [*] iter: 4300, val loss: 0.0279, val perf: 0.9976
+   [*] split, loss: 0.0253, nn_perf: 0.9976(valid) repeated: 4300
+   [*] Total expansions: [10, 3]
+ [*] task 1, shape : [784, 803]
+ [*] task 2, shape : [803, 795]
+ [*] Task: 3, nn_test_loss: 0.0283, test_perf: 0.9978, sparsity(avg): 0.5508
+
+ OVERALL EVALUATION
+ [*] task 1, shape : [784, 784]
+ [*] task 2, shape : [784, 784]
+ [*] Evaluation, Task:1, test_acc: 0.9996
+ [*] task 1, shape : [784, 793]
+ [*] task 2, shape : [793, 792]
+ [*] Evaluation, Task:2, test_acc: 0.9972
+ [*] task 1, shape : [784, 803]
+ [*] task 2, shape : [803, 795]
+ [*] Evaluation, Task:3, test_acc: 0.9978
+   [*] avg_perf: 0.9982
+
+
+	TASK 4 TRAINING
+
+ [*] Selective retraining
+ [*] Network expansion (training)
+   [*] Expanding 2th hidden unit, 7 unit added, (valid, repeated: 4300)
+   [*] Expanding 1th hidden unit, 10 unit added, (valid, repeated: 4300)
+ [*] Split & Duplication
+   [*] split N in layer1: 0 / 0
+   [*] split N in layer2: 0 / 0
+ [*] iter: 100, val loss: 0.0614, val perf: 0.9908
+ [*] iter: 200, val loss: 0.0523, val perf: 0.9928
+ [*] iter: 300, val loss: 0.0478, val perf: 0.9938
+ [*] iter: 400, val loss: 0.0451, val perf: 0.9945
+ [*] iter: 500, val loss: 0.0431, val perf: 0.9951
+ [*] iter: 600, val loss: 0.0409, val perf: 0.9953
+ [*] iter: 700, val loss: 0.0399, val perf: 0.9956
+ [*] iter: 800, val loss: 0.0395, val perf: 0.9957
+ [*] iter: 900, val loss: 0.0382, val perf: 0.9960
+ [*] iter: 1000, val loss: 0.0372, val perf: 0.9961
+ [*] iter: 1100, val loss: 0.0364, val perf: 0.9962
+ [*] iter: 1200, val loss: 0.0357, val perf: 0.9963
+ [*] iter: 1300, val loss: 0.0352, val perf: 0.9965
+ [*] iter: 1400, val loss: 0.0340, val perf: 0.9966
+ [*] iter: 1500, val loss: 0.0340, val perf: 0.9967
+ [*] iter: 1600, val loss: 0.0343, val perf: 0.9968
+ [*] iter: 1700, val loss: 0.0327, val perf: 0.9968
+ [*] iter: 1800, val loss: 0.0324, val perf: 0.9968
+ [*] iter: 1900, val loss: 0.0318, val perf: 0.9970
+ [*] iter: 2000, val loss: 0.0316, val perf: 0.9971
+ [*] iter: 2100, val loss: 0.0315, val perf: 0.9971
+ [*] iter: 2200, val loss: 0.0311, val perf: 0.9971
+ [*] iter: 2300, val loss: 0.0306, val perf: 0.9972
+ [*] iter: 2400, val loss: 0.0302, val perf: 0.9972
+ [*] iter: 2500, val loss: 0.0301, val perf: 0.9973
+ [*] iter: 2600, val loss: 0.0304, val perf: 0.9973
+ [*] iter: 2700, val loss: 0.0295, val perf: 0.9974
+ [*] iter: 2800, val loss: 0.0295, val perf: 0.9974
+ [*] iter: 2900, val loss: 0.0295, val perf: 0.9974
+ [*] iter: 3000, val loss: 0.0290, val perf: 0.9974
+ [*] iter: 3100, val loss: 0.0293, val perf: 0.9974
+ [*] iter: 3200, val loss: 0.0293, val perf: 0.9974
+ [*] iter: 3300, val loss: 0.0290, val perf: 0.9975
+ [*] iter: 3400, val loss: 0.0290, val perf: 0.9975
+ [*] iter: 3500, val loss: 0.0286, val perf: 0.9975
+ [*] iter: 3600, val loss: 0.0288, val perf: 0.9975
+ [*] iter: 3700, val loss: 0.0285, val perf: 0.9975
+ [*] iter: 3800, val loss: 0.0289, val perf: 0.9975
+ [*] iter: 3900, val loss: 0.0283, val perf: 0.9976
+ [*] iter: 4000, val loss: 0.0286, val perf: 0.9975
+ [*] iter: 4100, val loss: 0.0282, val perf: 0.9976
+ [*] iter: 4200, val loss: 0.0281, val perf: 0.9976
+ [*] iter: 4300, val loss: 0.0281, val perf: 0.9976
+   [*] split, loss: 0.0234, nn_perf: 0.9976(valid) repeated: 4300
+   [*] Total expansions: [10, 7]
+ [*] task 1, shape : [784, 813]
+ [*] task 2, shape : [813, 802]
+ [*] Task: 4, nn_test_loss: 0.0292, test_perf: 0.9976, sparsity(avg): 0.5397
+
+ OVERALL EVALUATION
+ [*] task 1, shape : [784, 784]
+ [*] task 2, shape : [784, 784]
+ [*] Evaluation, Task:1, test_acc: 0.9996
+ [*] task 1, shape : [784, 793]
+ [*] task 2, shape : [793, 792]
+ [*] Evaluation, Task:2, test_acc: 0.9972
+ [*] task 1, shape : [784, 803]
+ [*] task 2, shape : [803, 795]
+ [*] Evaluation, Task:3, test_acc: 0.9978
+ [*] task 1, shape : [784, 813]
+ [*] task 2, shape : [813, 802]
+ [*] Evaluation, Task:4, test_acc: 0.9976
+   [*] avg_perf: 0.9981
+
+
+	TASK 5 TRAINING
+
+ [*] Selective retraining
+ [*] Network expansion (training)
+   [*] Expanding 2th hidden unit, 9 unit added, (valid, repeated: 4300)
+   [*] Expanding 1th hidden unit, 10 unit added, (valid, repeated: 4300)
+ [*] Split & Duplication
+   [*] split N in layer1: 0 / 0
+   [*] split N in layer2: 0 / 0
+ [*] iter: 100, val loss: 0.0588, val perf: 0.9908
+ [*] iter: 200, val loss: 0.0525, val perf: 0.9923
+ [*] iter: 300, val loss: 0.0477, val perf: 0.9935
+ [*] iter: 400, val loss: 0.0458, val perf: 0.9943
+ [*] iter: 500, val loss: 0.0426, val perf: 0.9948
+ [*] iter: 600, val loss: 0.0408, val perf: 0.9953
+ [*] iter: 700, val loss: 0.0395, val perf: 0.9956
+ [*] iter: 800, val loss: 0.0387, val perf: 0.9960
+ [*] iter: 900, val loss: 0.0376, val perf: 0.9961
+ [*] iter: 1000, val loss: 0.0367, val perf: 0.9963
+ [*] iter: 1100, val loss: 0.0357, val perf: 0.9964
+ [*] iter: 1200, val loss: 0.0348, val perf: 0.9966
+ [*] iter: 1300, val loss: 0.0339, val perf: 0.9968
+ [*] iter: 1400, val loss: 0.0345, val perf: 0.9968
+ [*] iter: 1500, val loss: 0.0332, val perf: 0.9968
+ [*] iter: 1600, val loss: 0.0332, val perf: 0.9968
+ [*] iter: 1700, val loss: 0.0324, val perf: 0.9970
+ [*] iter: 1800, val loss: 0.0322, val perf: 0.9970
+ [*] iter: 1900, val loss: 0.0318, val perf: 0.9970
+ [*] iter: 2000, val loss: 0.0313, val perf: 0.9972
+ [*] iter: 2100, val loss: 0.0315, val perf: 0.9971
+ [*] iter: 2200, val loss: 0.0306, val perf: 0.9972
+ [*] iter: 2300, val loss: 0.0305, val perf: 0.9972
+ [*] iter: 2400, val loss: 0.0311, val perf: 0.9972
+ [*] iter: 2500, val loss: 0.0304, val perf: 0.9973
+ [*] iter: 2600, val loss: 0.0306, val perf: 0.9973
+ [*] iter: 2700, val loss: 0.0298, val perf: 0.9973
+ [*] iter: 2800, val loss: 0.0302, val perf: 0.9973
+ [*] iter: 2900, val loss: 0.0297, val perf: 0.9974
+ [*] iter: 3000, val loss: 0.0290, val perf: 0.9974
+ [*] iter: 3100, val loss: 0.0298, val perf: 0.9975
+ [*] iter: 3200, val loss: 0.0288, val perf: 0.9974
+ [*] iter: 3300, val loss: 0.0290, val perf: 0.9974
+ [*] iter: 3400, val loss: 0.0288, val perf: 0.9976
+ [*] iter: 3500, val loss: 0.0289, val perf: 0.9975
+ [*] iter: 3600, val loss: 0.0288, val perf: 0.9975
+ [*] iter: 3700, val loss: 0.0285, val perf: 0.9976
+ [*] iter: 3800, val loss: 0.0284, val perf: 0.9976
+ [*] iter: 3900, val loss: 0.0283, val perf: 0.9976
+ [*] iter: 4000, val loss: 0.0285, val perf: 0.9976
+ [*] iter: 4100, val loss: 0.0284, val perf: 0.9976
+ [*] iter: 4200, val loss: 0.0282, val perf: 0.9976
+ [*] iter: 4300, val loss: 0.0282, val perf: 0.9976
+   [*] split, loss: 0.0366, nn_perf: 0.9976(valid) repeated: 4300
+   [*] Total expansions: [10, 9]
+ [*] task 1, shape : [784, 823]
+ [*] task 2, shape : [823, 811]
+ [*] Task: 5, nn_test_loss: 0.0284, test_perf: 0.9976, sparsity(avg): 0.5312
+
+ OVERALL EVALUATION
+ [*] task 1, shape : [784, 784]
+ [*] task 2, shape : [784, 784]
+ [*] Evaluation, Task:1, test_acc: 0.9996
+ [*] task 1, shape : [784, 793]
+ [*] task 2, shape : [793, 792]
+ [*] Evaluation, Task:2, test_acc: 0.9972
+ [*] task 1, shape : [784, 803]
+ [*] task 2, shape : [803, 795]
+ [*] Evaluation, Task:3, test_acc: 0.9978
+ [*] task 1, shape : [784, 813]
+ [*] task 2, shape : [813, 802]
+ [*] Evaluation, Task:4, test_acc: 0.9976
+ [*] task 1, shape : [784, 823]
+ [*] task 2, shape : [823, 811]
+ [*] Evaluation, Task:5, test_acc: 0.9976
+   [*] avg_perf: 0.9980
+
+
+	TASK 6 TRAINING
+
+ [*] Selective retraining
+ [*] Network expansion (training)
+   [*] Expanding 2th hidden unit, 7 unit added, (valid, repeated: 4300)
+   [*] Expanding 1th hidden unit, 10 unit added, (valid, repeated: 4300)
+ [*] Split & Duplication
+   [*] split N in layer1: 0 / 0
+   [*] split N in layer2: 0 / 0
+ [*] iter: 100, val loss: 0.0630, val perf: 0.9899
+ [*] iter: 200, val loss: 0.0540, val perf: 0.9921
+ [*] iter: 300, val loss: 0.0490, val perf: 0.9931
+ [*] iter: 400, val loss: 0.0456, val perf: 0.9940
+ [*] iter: 500, val loss: 0.0445, val perf: 0.9945
+ [*] iter: 600, val loss: 0.0418, val perf: 0.9949
+ [*] iter: 700, val loss: 0.0404, val perf: 0.9953
+ [*] iter: 800, val loss: 0.0397, val perf: 0.9955
+ [*] iter: 900, val loss: 0.0384, val perf: 0.9957
+ [*] iter: 1000, val loss: 0.0374, val perf: 0.9960
+ [*] iter: 1100, val loss: 0.0359, val perf: 0.9962
+ [*] iter: 1200, val loss: 0.0348, val perf: 0.9964
+ [*] iter: 1300, val loss: 0.0348, val perf: 0.9964
+ [*] iter: 1400, val loss: 0.0347, val perf: 0.9965
+ [*] iter: 1500, val loss: 0.0337, val perf: 0.9966
+ [*] iter: 1600, val loss: 0.0329, val perf: 0.9968
+ [*] iter: 1700, val loss: 0.0323, val perf: 0.9968
+ [*] iter: 1800, val loss: 0.0322, val perf: 0.9968
+ [*] iter: 1900, val loss: 0.0320, val perf: 0.9969
+ [*] iter: 2000, val loss: 0.0321, val perf: 0.9970
+ [*] iter: 2100, val loss: 0.0318, val perf: 0.9970
+ [*] iter: 2200, val loss: 0.0315, val perf: 0.9971
+ [*] iter: 2300, val loss: 0.0309, val perf: 0.9971
+ [*] iter: 2400, val loss: 0.0310, val perf: 0.9971
+ [*] iter: 2500, val loss: 0.0306, val perf: 0.9971
+ [*] iter: 2600, val loss: 0.0308, val perf: 0.9972
+ [*] iter: 2700, val loss: 0.0302, val perf: 0.9972
+ [*] iter: 2800, val loss: 0.0300, val perf: 0.9973
+ [*] iter: 2900, val loss: 0.0297, val perf: 0.9973
+ [*] iter: 3000, val loss: 0.0298, val perf: 0.9974
+ [*] iter: 3100, val loss: 0.0293, val perf: 0.9975
+ [*] iter: 3200, val loss: 0.0293, val perf: 0.9974
+ [*] iter: 3300, val loss: 0.0290, val perf: 0.9974
+ [*] iter: 3400, val loss: 0.0296, val perf: 0.9974
+ [*] iter: 3500, val loss: 0.0289, val perf: 0.9975
+ [*] iter: 3600, val loss: 0.0289, val perf: 0.9974
+ [*] iter: 3700, val loss: 0.0286, val perf: 0.9975
+ [*] iter: 3800, val loss: 0.0287, val perf: 0.9975
+ [*] iter: 3900, val loss: 0.0283, val perf: 0.9975
+ [*] iter: 4000, val loss: 0.0283, val perf: 0.9975
+ [*] iter: 4100, val loss: 0.0285, val perf: 0.9975
+ [*] iter: 4200, val loss: 0.0286, val perf: 0.9975
+ [*] iter: 4300, val loss: 0.0284, val perf: 0.9975
+   [*] split, loss: 0.0160, nn_perf: 0.9975(valid) repeated: 4300
+   [*] Total expansions: [10, 7]
+ [*] task 1, shape : [784, 833]
+ [*] task 2, shape : [833, 818]
+ [*] Task: 6, nn_test_loss: 0.0289, test_perf: 0.9978, sparsity(avg): 0.5250
+
+ OVERALL EVALUATION
+ [*] task 1, shape : [784, 784]
+ [*] task 2, shape : [784, 784]
+ [*] Evaluation, Task:1, test_acc: 0.9996
+ [*] task 1, shape : [784, 793]
+ [*] task 2, shape : [793, 792]
+ [*] Evaluation, Task:2, test_acc: 0.9972
+ [*] task 1, shape : [784, 803]
+ [*] task 2, shape : [803, 795]
+ [*] Evaluation, Task:3, test_acc: 0.9978
+ [*] task 1, shape : [784, 813]
+ [*] task 2, shape : [813, 802]
+ [*] Evaluation, Task:4, test_acc: 0.9976
+ [*] task 1, shape : [784, 823]
+ [*] task 2, shape : [823, 811]
+ [*] Evaluation, Task:5, test_acc: 0.9976
+ [*] task 1, shape : [784, 833]
+ [*] task 2, shape : [833, 818]
+ [*] Evaluation, Task:6, test_acc: 0.9978
+   [*] avg_perf: 0.9979
+
+
+	TASK 7 TRAINING
+
+ [*] Selective retraining
+ [*] Network expansion (training)
+   [*] Expanding 2th hidden unit, 10 unit added, (valid, repeated: 4300)
+   [*] Expanding 1th hidden unit, 9 unit added, (valid, repeated: 4300)
+ [*] Split & Duplication
+   [*] split N in layer1: 0 / 0
+   [*] split N in layer2: 0 / 0
+ [*] iter: 100, val loss: 0.0650, val perf: 0.9902
+ [*] iter: 200, val loss: 0.0547, val perf: 0.9923
+ [*] iter: 300, val loss: 0.0506, val perf: 0.9933
+ [*] iter: 400, val loss: 0.0471, val perf: 0.9941
+ [*] iter: 500, val loss: 0.0462, val perf: 0.9944
+ [*] iter: 600, val loss: 0.0455, val perf: 0.9949
+ [*] iter: 700, val loss: 0.0416, val perf: 0.9952
+ [*] iter: 800, val loss: 0.0409, val perf: 0.9955
+ [*] iter: 900, val loss: 0.0401, val perf: 0.9957
+ [*] iter: 1000, val loss: 0.0389, val perf: 0.9959
+ [*] iter: 1100, val loss: 0.0397, val perf: 0.9959
+ [*] iter: 1200, val loss: 0.0380, val perf: 0.9961
+ [*] iter: 1300, val loss: 0.0370, val perf: 0.9962
+ [*] iter: 1400, val loss: 0.0373, val perf: 0.9963
+ [*] iter: 1500, val loss: 0.0371, val perf: 0.9964
+ [*] iter: 1600, val loss: 0.0365, val perf: 0.9966
+ [*] iter: 1700, val loss: 0.0346, val perf: 0.9966
+ [*] iter: 1800, val loss: 0.0343, val perf: 0.9967
+ [*] iter: 1900, val loss: 0.0345, val perf: 0.9967
+ [*] iter: 2000, val loss: 0.0337, val perf: 0.9968
+ [*] iter: 2100, val loss: 0.0341, val perf: 0.9968
+ [*] iter: 2200, val loss: 0.0343, val perf: 0.9969
+ [*] iter: 2300, val loss: 0.0334, val perf: 0.9969
+ [*] iter: 2400, val loss: 0.0328, val perf: 0.9970
+ [*] iter: 2500, val loss: 0.0332, val perf: 0.9970
+ [*] iter: 2600, val loss: 0.0320, val perf: 0.9971
+ [*] iter: 2700, val loss: 0.0321, val perf: 0.9971
+ [*] iter: 2800, val loss: 0.0322, val perf: 0.9971
+ [*] iter: 2900, val loss: 0.0312, val perf: 0.9971
+ [*] iter: 3000, val loss: 0.0316, val perf: 0.9972
+ [*] iter: 3100, val loss: 0.0320, val perf: 0.9971
+ [*] iter: 3200, val loss: 0.0313, val perf: 0.9972
+ [*] iter: 3300, val loss: 0.0309, val perf: 0.9973
+ [*] iter: 3400, val loss: 0.0304, val perf: 0.9973
+ [*] iter: 3500, val loss: 0.0314, val perf: 0.9972
+ [*] iter: 3600, val loss: 0.0305, val perf: 0.9973
+ [*] iter: 3700, val loss: 0.0308, val perf: 0.9973
+ [*] iter: 3800, val loss: 0.0303, val perf: 0.9973
+ [*] iter: 3900, val loss: 0.0299, val perf: 0.9974
+ [*] iter: 4000, val loss: 0.0302, val perf: 0.9974
+ [*] iter: 4100, val loss: 0.0306, val perf: 0.9973
+ [*] iter: 4200, val loss: 0.0299, val perf: 0.9974
+ [*] iter: 4300, val loss: 0.0298, val perf: 0.9973
+   [*] split, loss: 0.0422, nn_perf: 0.9973(valid) repeated: 4300
+   [*] Total expansions: [9, 10]
+ [*] task 1, shape : [784, 842]
+ [*] task 2, shape : [842, 828]
+ [*] Task: 7, nn_test_loss: 0.0302, test_perf: 0.9974, sparsity(avg): 0.5165
+
+ OVERALL EVALUATION
+ [*] task 1, shape : [784, 784]
+ [*] task 2, shape : [784, 784]
+ [*] Evaluation, Task:1, test_acc: 0.9996
+ [*] task 1, shape : [784, 793]
+ [*] task 2, shape : [793, 792]
+ [*] Evaluation, Task:2, test_acc: 0.9972
+ [*] task 1, shape : [784, 803]
+ [*] task 2, shape : [803, 795]
+ [*] Evaluation, Task:3, test_acc: 0.9978
+ [*] task 1, shape : [784, 813]
+ [*] task 2, shape : [813, 802]
+ [*] Evaluation, Task:4, test_acc: 0.9976
+ [*] task 1, shape : [784, 823]
+ [*] task 2, shape : [823, 811]
+ [*] Evaluation, Task:5, test_acc: 0.9976
+ [*] task 1, shape : [784, 833]
+ [*] task 2, shape : [833, 818]
+ [*] Evaluation, Task:6, test_acc: 0.9978
+ [*] task 1, shape : [784, 842]
+ [*] task 2, shape : [842, 828]
+ [*] Evaluation, Task:7, test_acc: 0.9974
+   [*] avg_perf: 0.9979
+
+
+	TASK 8 TRAINING
+
+ [*] Selective retraining
+ [*] Network expansion (training)
+   [*] Expanding 2th hidden unit, 7 unit added, (valid, repeated: 4300)
+   [*] Expanding 1th hidden unit, 9 unit added, (valid, repeated: 4300)
+ [*] Split & Duplication
+   [*] split N in layer1: 0 / 0
+   [*] split N in layer2: 0 / 0
+ [*] iter: 100, val loss: 0.0668, val perf: 0.9906
+ [*] iter: 200, val loss: 0.0578, val perf: 0.9925
+ [*] iter: 300, val loss: 0.0512, val perf: 0.9935
+ [*] iter: 400, val loss: 0.0494, val perf: 0.9942
+ [*] iter: 500, val loss: 0.0481, val perf: 0.9946
+ [*] iter: 600, val loss: 0.0452, val perf: 0.9949
+ [*] iter: 700, val loss: 0.0431, val perf: 0.9951
+ [*] iter: 800, val loss: 0.0427, val perf: 0.9953
+ [*] iter: 900, val loss: 0.0412, val perf: 0.9955
+ [*] iter: 1000, val loss: 0.0409, val perf: 0.9956
+ [*] iter: 1100, val loss: 0.0402, val perf: 0.9958
+ [*] iter: 1200, val loss: 0.0391, val perf: 0.9958
+ [*] iter: 1300, val loss: 0.0391, val perf: 0.9959
+ [*] iter: 1400, val loss: 0.0381, val perf: 0.9961
+ [*] iter: 1500, val loss: 0.0384, val perf: 0.9961
+ [*] iter: 1600, val loss: 0.0360, val perf: 0.9964
+ [*] iter: 1700, val loss: 0.0363, val perf: 0.9962
+ [*] iter: 1800, val loss: 0.0356, val perf: 0.9963
+ [*] iter: 1900, val loss: 0.0362, val perf: 0.9964
+ [*] iter: 2000, val loss: 0.0350, val perf: 0.9965
+ [*] iter: 2100, val loss: 0.0344, val perf: 0.9965
+ [*] iter: 2200, val loss: 0.0348, val perf: 0.9966
+ [*] iter: 2300, val loss: 0.0340, val perf: 0.9967
+ [*] iter: 2400, val loss: 0.0338, val perf: 0.9966
+ [*] iter: 2500, val loss: 0.0338, val perf: 0.9967
+ [*] iter: 2600, val loss: 0.0329, val perf: 0.9968
+ [*] iter: 2700, val loss: 0.0333, val perf: 0.9968
+ [*] iter: 2800, val loss: 0.0328, val perf: 0.9968
+ [*] iter: 2900, val loss: 0.0330, val perf: 0.9968
+ [*] iter: 3000, val loss: 0.0319, val perf: 0.9969
+ [*] iter: 3100, val loss: 0.0321, val perf: 0.9969
+ [*] iter: 3200, val loss: 0.0320, val perf: 0.9969
+ [*] iter: 3300, val loss: 0.0317, val perf: 0.9969
+ [*] iter: 3400, val loss: 0.0329, val perf: 0.9969
+ [*] iter: 3500, val loss: 0.0316, val perf: 0.9970
+ [*] iter: 3600, val loss: 0.0313, val perf: 0.9970
+ [*] iter: 3700, val loss: 0.0312, val perf: 0.9971
+ [*] iter: 3800, val loss: 0.0314, val perf: 0.9971
+ [*] iter: 3900, val loss: 0.0309, val perf: 0.9971
+ [*] iter: 4000, val loss: 0.0311, val perf: 0.9971
+ [*] iter: 4100, val loss: 0.0308, val perf: 0.9971
+ [*] iter: 4200, val loss: 0.0306, val perf: 0.9971
+ [*] iter: 4300, val loss: 0.0311, val perf: 0.9972
+   [*] split, loss: 0.0336, nn_perf: 0.9972(valid) repeated: 4300
+   [*] Total expansions: [9, 7]
+ [*] task 1, shape : [784, 851]
+ [*] task 2, shape : [851, 835]
+ [*] Task: 8, nn_test_loss: 0.0309, test_perf: 0.9975, sparsity(avg): 0.5097
+
+ OVERALL EVALUATION
+ [*] task 1, shape : [784, 784]
+ [*] task 2, shape : [784, 784]
+ [*] Evaluation, Task:1, test_acc: 0.9996
+ [*] task 1, shape : [784, 793]
+ [*] task 2, shape : [793, 792]
+ [*] Evaluation, Task:2, test_acc: 0.9972
+ [*] task 1, shape : [784, 803]
+ [*] task 2, shape : [803, 795]
+ [*] Evaluation, Task:3, test_acc: 0.9978
+ [*] task 1, shape : [784, 813]
+ [*] task 2, shape : [813, 802]
+ [*] Evaluation, Task:4, test_acc: 0.9976
+ [*] task 1, shape : [784, 823]
+ [*] task 2, shape : [823, 811]
+ [*] Evaluation, Task:5, test_acc: 0.9976
+ [*] task 1, shape : [784, 833]
+ [*] task 2, shape : [833, 818]
+ [*] Evaluation, Task:6, test_acc: 0.9978
+ [*] task 1, shape : [784, 842]
+ [*] task 2, shape : [842, 828]
+ [*] Evaluation, Task:7, test_acc: 0.9974
+ [*] task 1, shape : [784, 851]
+ [*] task 2, shape : [851, 835]
+ [*] Evaluation, Task:8, test_acc: 0.9975
+   [*] avg_perf: 0.9978
+
+
+	TASK 9 TRAINING
+
+ [*] Selective retraining
+ [*] Network expansion (training)
+   [*] Expanding 2th hidden unit, 9 unit added, (valid, repeated: 4300)
+   [*] Expanding 1th hidden unit, 8 unit added, (valid, repeated: 4300)
+ [*] Split & Duplication
+   [*] split N in layer1: 0 / 0
+   [*] split N in layer2: 0 / 0
+ [*] iter: 100, val loss: 0.0625, val perf: 0.9896
+ [*] iter: 200, val loss: 0.0566, val perf: 0.9918
+ [*] iter: 300, val loss: 0.0535, val perf: 0.9927
+ [*] iter: 400, val loss: 0.0468, val perf: 0.9939
+ [*] iter: 500, val loss: 0.0448, val perf: 0.9944
+ [*] iter: 600, val loss: 0.0436, val perf: 0.9947
+ [*] iter: 700, val loss: 0.0425, val perf: 0.9951
+ [*] iter: 800, val loss: 0.0417, val perf: 0.9953
+ [*] iter: 900, val loss: 0.0400, val perf: 0.9956
+ [*] iter: 1000, val loss: 0.0388, val perf: 0.9957
+ [*] iter: 1100, val loss: 0.0385, val perf: 0.9959
+ [*] iter: 1200, val loss: 0.0375, val perf: 0.9961
+ [*] iter: 1300, val loss: 0.0380, val perf: 0.9963
+ [*] iter: 1400, val loss: 0.0356, val perf: 0.9963
+ [*] iter: 1500, val loss: 0.0367, val perf: 0.9964
+ [*] iter: 1600, val loss: 0.0354, val perf: 0.9965
+ [*] iter: 1700, val loss: 0.0350, val perf: 0.9965
+ [*] iter: 1800, val loss: 0.0345, val perf: 0.9967
+ [*] iter: 1900, val loss: 0.0349, val perf: 0.9966
+ [*] iter: 2000, val loss: 0.0345, val perf: 0.9967
+ [*] iter: 2100, val loss: 0.0339, val perf: 0.9968
+ [*] iter: 2200, val loss: 0.0326, val perf: 0.9969
+ [*] iter: 2300, val loss: 0.0336, val perf: 0.9969
+ [*] iter: 2400, val loss: 0.0329, val perf: 0.9970
+ [*] iter: 2500, val loss: 0.0329, val perf: 0.9970
+ [*] iter: 2600, val loss: 0.0321, val perf: 0.9970
+ [*] iter: 2700, val loss: 0.0324, val perf: 0.9970
+ [*] iter: 2800, val loss: 0.0318, val perf: 0.9970
+ [*] iter: 2900, val loss: 0.0321, val perf: 0.9971
+ [*] iter: 3000, val loss: 0.0318, val perf: 0.9971
+ [*] iter: 3100, val loss: 0.0315, val perf: 0.9972
+ [*] iter: 3200, val loss: 0.0318, val perf: 0.9973
+ [*] iter: 3300, val loss: 0.0315, val perf: 0.9972
+ [*] iter: 3400, val loss: 0.0318, val perf: 0.9973
+ [*] iter: 3500, val loss: 0.0308, val perf: 0.9972
+ [*] iter: 3600, val loss: 0.0312, val perf: 0.9972
+ [*] iter: 3700, val loss: 0.0318, val perf: 0.9972
+ [*] iter: 3800, val loss: 0.0310, val perf: 0.9973
+ [*] iter: 3900, val loss: 0.0308, val perf: 0.9973
+ [*] iter: 4000, val loss: 0.0306, val perf: 0.9973
+ [*] iter: 4100, val loss: 0.0308, val perf: 0.9974
+ [*] iter: 4200, val loss: 0.0303, val perf: 0.9973
+ [*] iter: 4300, val loss: 0.0301, val perf: 0.9975
+   [*] split, loss: 0.0409, nn_perf: 0.9975(valid) repeated: 4300
+   [*] Total expansions: [8, 9]
+ [*] task 1, shape : [784, 859]
+ [*] task 2, shape : [859, 844]
+ [*] Task: 9, nn_test_loss: 0.0311, test_perf: 0.9973, sparsity(avg): 0.5040
+
+ OVERALL EVALUATION
+ [*] task 1, shape : [784, 784]
+ [*] task 2, shape : [784, 784]
+ [*] Evaluation, Task:1, test_acc: 0.9996
+ [*] task 1, shape : [784, 793]
+ [*] task 2, shape : [793, 792]
+ [*] Evaluation, Task:2, test_acc: 0.9972
+ [*] task 1, shape : [784, 803]
+ [*] task 2, shape : [803, 795]
+ [*] Evaluation, Task:3, test_acc: 0.9978
+ [*] task 1, shape : [784, 813]
+ [*] task 2, shape : [813, 802]
+ [*] Evaluation, Task:4, test_acc: 0.9976
+ [*] task 1, shape : [784, 823]
+ [*] task 2, shape : [823, 811]
+ [*] Evaluation, Task:5, test_acc: 0.9976
+ [*] task 1, shape : [784, 833]
+ [*] task 2, shape : [833, 818]
+ [*] Evaluation, Task:6, test_acc: 0.9978
+ [*] task 1, shape : [784, 842]
+ [*] task 2, shape : [842, 828]
+ [*] Evaluation, Task:7, test_acc: 0.9974
+ [*] task 1, shape : [784, 851]
+ [*] task 2, shape : [851, 835]
+ [*] Evaluation, Task:8, test_acc: 0.9975
+ [*] task 1, shape : [784, 859]
+ [*] task 2, shape : [859, 844]
+ [*] Evaluation, Task:9, test_acc: 0.9973
+   [*] avg_perf: 0.9978
+
+
+	TASK 10 TRAINING
+
+ [*] Selective retraining
+ [*] Network expansion (training)
+   [*] Expanding 2th hidden unit, 6 unit added, (valid, repeated: 4300)
+   [*] Expanding 1th hidden unit, 9 unit added, (valid, repeated: 4300)
+ [*] Split & Duplication
+   [*] split N in layer1: 0 / 0
+   [*] split N in layer2: 0 / 0
+ [*] iter: 100, val loss: 0.0630, val perf: 0.9895
+ [*] iter: 200, val loss: 0.0575, val perf: 0.9918
+ [*] iter: 300, val loss: 0.0526, val perf: 0.9931
+ [*] iter: 400, val loss: 0.0472, val perf: 0.9937
+ [*] iter: 500, val loss: 0.0468, val perf: 0.9941
+ [*] iter: 600, val loss: 0.0439, val perf: 0.9947
+ [*] iter: 700, val loss: 0.0417, val perf: 0.9950
+ [*] iter: 800, val loss: 0.0405, val perf: 0.9953
+ [*] iter: 900, val loss: 0.0405, val perf: 0.9956
+ [*] iter: 1000, val loss: 0.0400, val perf: 0.9957
+ [*] iter: 1100, val loss: 0.0388, val perf: 0.9959
+ [*] iter: 1200, val loss: 0.0381, val perf: 0.9959
+ [*] iter: 1300, val loss: 0.0370, val perf: 0.9960
+ [*] iter: 1400, val loss: 0.0376, val perf: 0.9961
+ [*] iter: 1500, val loss: 0.0355, val perf: 0.9963
+ [*] iter: 1600, val loss: 0.0353, val perf: 0.9964
+ [*] iter: 1700, val loss: 0.0351, val perf: 0.9964
+ [*] iter: 1800, val loss: 0.0340, val perf: 0.9966
+ [*] iter: 1900, val loss: 0.0335, val perf: 0.9966
+ [*] iter: 2000, val loss: 0.0328, val perf: 0.9968
+ [*] iter: 2100, val loss: 0.0327, val perf: 0.9968
+ [*] iter: 2200, val loss: 0.0330, val perf: 0.9967
+ [*] iter: 2300, val loss: 0.0319, val perf: 0.9969
+ [*] iter: 2400, val loss: 0.0323, val perf: 0.9969
+ [*] iter: 2500, val loss: 0.0323, val perf: 0.9971
+ [*] iter: 2600, val loss: 0.0319, val perf: 0.9970
+ [*] iter: 2700, val loss: 0.0313, val perf: 0.9970
+ [*] iter: 2800, val loss: 0.0327, val perf: 0.9970
+ [*] iter: 2900, val loss: 0.0307, val perf: 0.9971
+ [*] iter: 3000, val loss: 0.0307, val perf: 0.9971
+ [*] iter: 3100, val loss: 0.0312, val perf: 0.9971
+ [*] iter: 3200, val loss: 0.0304, val perf: 0.9971
+ [*] iter: 3300, val loss: 0.0305, val perf: 0.9972
+ [*] iter: 3400, val loss: 0.0303, val perf: 0.9972
+ [*] iter: 3500, val loss: 0.0306, val perf: 0.9972
+ [*] iter: 3600, val loss: 0.0312, val perf: 0.9973
+ [*] iter: 3700, val loss: 0.0297, val perf: 0.9973
+ [*] iter: 3800, val loss: 0.0303, val perf: 0.9973
+ [*] iter: 3900, val loss: 0.0296, val perf: 0.9972
+ [*] iter: 4000, val loss: 0.0296, val perf: 0.9973
+ [*] iter: 4100, val loss: 0.0303, val perf: 0.9972
+ [*] iter: 4200, val loss: 0.0295, val perf: 0.9973
+ [*] iter: 4300, val loss: 0.0293, val perf: 0.9973
+   [*] split, loss: 0.0283, nn_perf: 0.9973(valid) repeated: 4300
+   [*] Total expansions: [9, 6]
+ [*] task 1, shape : [784, 868]
+ [*] task 2, shape : [868, 850]
+ [*] Task: 10, nn_test_loss: 0.0301, test_perf: 0.9976, sparsity(avg): 0.5005
+
+ OVERALL EVALUATION
+ [*] task 1, shape : [784, 784]
+ [*] task 2, shape : [784, 784]
+ [*] Evaluation, Task:1, test_acc: 0.9996
+ [*] task 1, shape : [784, 793]
+ [*] task 2, shape : [793, 792]
+ [*] Evaluation, Task:2, test_acc: 0.9972
+ [*] task 1, shape : [784, 803]
+ [*] task 2, shape : [803, 795]
+ [*] Evaluation, Task:3, test_acc: 0.9978
+ [*] task 1, shape : [784, 813]
+ [*] task 2, shape : [813, 802]
+ [*] Evaluation, Task:4, test_acc: 0.9976
+ [*] task 1, shape : [784, 823]
+ [*] task 2, shape : [823, 811]
+ [*] Evaluation, Task:5, test_acc: 0.9976
+ [*] task 1, shape : [784, 833]
+ [*] task 2, shape : [833, 818]
+ [*] Evaluation, Task:6, test_acc: 0.9978
+ [*] task 1, shape : [784, 842]
+ [*] task 2, shape : [842, 828]
+ [*] Evaluation, Task:7, test_acc: 0.9974
+ [*] task 1, shape : [784, 851]
+ [*] task 2, shape : [851, 835]
+ [*] Evaluation, Task:8, test_acc: 0.9975
+ [*] task 1, shape : [784, 859]
+ [*] task 2, shape : [859, 844]
+ [*] Evaluation, Task:9, test_acc: 0.9973
+ [*] task 1, shape : [784, 868]
+ [*] task 2, shape : [868, 850]
+ [*] Evaluation, Task:10, test_acc: 0.9976
+   [*] avg_perf: 0.9977
+rupeshs-mbp:DEN rupesh.karn$ 
+
